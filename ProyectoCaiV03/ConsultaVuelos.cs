@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace ProyectoCaiV03
 {
-    public partial class Form2 : Form
+    public partial class ConsultaVuelos : Form
     {
-        public Form2()
+        public ConsultaVuelos()
         {
             InitializeComponent();
         }
+
+        private void botonVolver_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario ConsultaVuelos
+            this.Close();
+        }
+
     }
 }

@@ -14,7 +14,7 @@ namespace ProyectoCaiV03
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form2());
+            Application.Run(new Form1());
 
             // CARGO DATOS EN Productos.json
             ModuloProductos moduloProductos = new ModuloProductos();

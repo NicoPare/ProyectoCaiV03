@@ -57,5 +57,123 @@
         ]
       }
     ]
+  },
+  {
+    "CodPresupuesto": "da1b7b86-0ba2-4f02-904a-b3f2c7b1d397",
+    "AlojamientosSeleccionados": [
+      {
+        "CodCiudad": "BSA",
+        "FechaIngreso": "06/01/2023",
+        "FechaSalida": "06/02/2023",
+        "NombreAlojamiento": "Hotel ABC",
+        "Tarifa": 100,
+        "NombreHabitacion": "Habitación Estándar",
+        "Calificacion": 4
+      },
+      {
+        "CodCiudad": "COD2",
+        "FechaIngreso": "2023-06-15T01:09:33.217451-03:00",
+        "FechaSalida": "2023-06-22T01:09:33.2208418-03:00",
+        "NombreAlojamiento": "Hotel XYZ",
+        "Tarifa": 150,
+        "NombreHabitacion": "Suite",
+        "Calificacion": 5
+      }
+    ],
+    "VuelosSeleccionados": [
+      {
+        "Origen": "Ciudad A",
+        "Destino": "Ciudad B",
+        "FechaHoraSalida": "2023-06-15T01:09:33.2233926-03:00",
+        "FechaHoraArribo": "2023-06-15T03:09:33.2233935-03:00",
+        "Aerolinea": "Aerolínea 1",
+        "Tarifas": [
+          {
+            "Precio": 200,
+            "ClaseVuelo": "Económica"
+          },
+          {
+            "Precio": 400,
+            "ClaseVuelo": "Premium"
+          }
+        ]
+      },
+      {
+        "Origen": "Ciudad B",
+        "Destino": "Ciudad C",
+        "FechaHoraSalida": "2023-06-15T01:09:33.2251488-03:00",
+        "FechaHoraArribo": "2023-06-15T04:09:33.2251495-03:00",
+        "Aerolinea": "Aerolínea 2",
+        "Tarifas": [
+          {
+            "Precio": 300,
+            "ClaseVuelo": "Económica"
+          },
+          {
+            "Precio": 500,
+            "ClaseVuelo": "Premium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CodPresupuesto": "0eb12978-3d0d-445a-b599-8e1bc7d6a0d6",
+    "AlojamientosSeleccionados": [
+      {
+        "CodCiudad": "BSA",
+        "FechaIngreso": "06/01/2023",
+        "FechaSalida": "06/02/2023",
+        "NombreAlojamiento": "Hotel ABC",
+        "Tarifa": 100,
+        "NombreHabitacion": "Habitación Estándar",
+        "Calificacion": 4
+      },
+      {
+        "CodCiudad": "COD2",
+        "FechaIngreso": "2023-06-15T01:11:51.5694237-03:00",
+        "FechaSalida": "2023-06-22T01:11:51.5714918-03:00",
+        "NombreAlojamiento": "Hotel XYZ",
+        "Tarifa": 150,
+        "NombreHabitacion": "Suite",
+        "Calificacion": 5
+      }
+    ],
+    "VuelosSeleccionados": [
+      {
+        "Origen": "Ciudad A",
+        "Destino": "Ciudad B",
+        "FechaHoraSalida": "2023-06-15T01:11:51.5735062-03:00",
+        "FechaHoraArribo": "2023-06-15T03:11:51.5735065-03:00",
+        "Aerolinea": "Aerolínea 1",
+        "Tarifas": [
+          {
+            "Precio": 200,
+            "ClaseVuelo": "Económica"
+          },
+          {
+            "Precio": 400,
+            "ClaseVuelo": "Premium"
+          }
+        ]
+      },
+      {
+        "Origen": "Ciudad B",
+        "Destino": "Ciudad C",
+        "FechaHoraSalida": "2023-06-15T01:11:51.5751657-03:00",
+        "FechaHoraArribo": "2023-06-15T04:11:51.5751665-03:00",
+        "Aerolinea": "Aerolínea 2",
+        "Tarifas": [
+          {
+            "Precio": 300,
+            "ClaseVuelo": "Económica"
+          },
+          {
+            "Precio": 500,
+            "ClaseVuelo": "Premium"
+          }
+        ]
+      }
+    ]
   }
 ]
