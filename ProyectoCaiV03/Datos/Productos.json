@@ -1,30 +1,30 @@
 [
   {
-    "CodProducto": "4BZH2KQ6",
+    "CodProducto": "5FQZ0LR6",
     "Vuelo": {
       "CodVuelo": "V-1",
-      "Origen": "Buenos Aires",
-      "Destino": "Londres",
-      "Aerolinea": "Amerina Airlines",
+      "Origen": "EZE",
+      "Destino": "LHR",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-06-01T06:00:00",
       "TiempoDeVuelo": "01:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 153050.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 146520.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 110000.0
         },
@@ -51,31 +51,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "7ZUOID2H",
+    "CodProducto": "Y0AM3W4N",
     "Vuelo": {
       "CodVuelo": "V-2",
-      "Origen": "Buenos Aires",
-      "Destino": "Madrid",
-      "Aerolinea": "Amerina Airlines",
+      "Origen": "EZE",
+      "Destino": "MAD",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T08:00:00",
       "FechaHoraArribo": "2023-06-01T11:00:00",
       "TiempoDeVuelo": "03:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 185000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 155000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 115000.0
         },
@@ -102,31 +102,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "H2322WI2",
+    "CodProducto": "F8OVS984",
     "Vuelo": {
       "CodVuelo": "V-3",
-      "Origen": "Buenos Aires",
-      "Destino": "Barcelona",
-      "Aerolinea": "Amerina Airlines",
+      "Origen": "EZE",
+      "Destino": "BCN",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-02T05:00:00",
       "FechaHoraArribo": "2023-06-02T06:00:00",
       "TiempoDeVuelo": "01:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 140000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 110000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 85000.0
         },
@@ -144,7 +144,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 130000.0
         }
@@ -153,31 +153,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "SC3JMQJD",
+    "CodProducto": "QL86XLTV",
     "Vuelo": {
       "CodVuelo": "V-4",
-      "Origen": "Buenos Aires",
-      "Destino": "Tokyo",
-      "Aerolinea": "Turkish Airlines",
+      "Origen": "EZE",
+      "Destino": "HND",
+      "Aerolinea": "TK",
       "FechaHoraSalida": "2023-06-01T14:00:00",
       "FechaHoraArribo": "2023-06-03T17:00:00",
       "TiempoDeVuelo": "03:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 300000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 250000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 230000.0
         },
@@ -195,7 +195,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 280000.0
         }
@@ -204,31 +204,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "Q833DNFS",
+    "CodProducto": "KE1IG3HS",
     "Vuelo": {
       "CodVuelo": "V-5",
-      "Origen": "Buenos Aires",
-      "Destino": "Australia",
-      "Aerolinea": "Turkish Airlines",
+      "Origen": "EZE",
+      "Destino": "SYD",
+      "Aerolinea": "TK",
       "FechaHoraSalida": "2023-06-01T03:00:00",
       "FechaHoraArribo": "2023-06-04T08:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 295000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 275000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 255000.0
         },
@@ -246,7 +246,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 300000.0
         }
@@ -255,31 +255,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "F9OACR39",
+    "CodProducto": "KOGV8ZJY",
     "Vuelo": {
       "CodVuelo": "V-6",
-      "Origen": "Buenos Aires",
-      "Destino": "Miami",
-      "Aerolinea": "American Airlines",
+      "Origen": "EZE",
+      "Destino": "MIA",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-06-04T09:00:00",
       "TiempoDeVuelo": "04:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 130000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 100000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 85000.0
         },
@@ -297,7 +297,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 105000.0
         }
@@ -306,31 +306,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "YW07TKYC",
+    "CodProducto": "3K73CPBE",
     "Vuelo": {
       "CodVuelo": "V-7",
-      "Origen": "Londres",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "American Airlines",
+      "Origen": "LHR",
+      "Destino": "EZE",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T03:00:00",
       "FechaHoraArribo": "2023-07-01T08:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 170000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 140000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 110000.0
         },
@@ -348,7 +348,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 140000.0
         }
@@ -357,31 +357,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "8AYF0VA8",
+    "CodProducto": "0G9B9Z2C",
     "Vuelo": {
       "CodVuelo": "V-8",
-      "Origen": "Madrid",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "American Airlines",
+      "Origen": "MAD",
+      "Destino": "EZE",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T10:00:00",
       "FechaHoraArribo": "2023-07-01T16:00:00",
       "TiempoDeVuelo": "06:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 200000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 165000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 135000.0
         },
@@ -399,7 +399,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 185000.0
         }
@@ -408,31 +408,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "W3908KIB",
+    "CodProducto": "IGS44OTT",
     "Vuelo": {
       "CodVuelo": "V-9",
-      "Origen": "Barcelona",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "American Airlines",
+      "Origen": "BCN",
+      "Destino": "EZE",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-07-02T10:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 195000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 175000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 135000.0
         },
@@ -450,7 +450,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 215000.0
         }
@@ -459,31 +459,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "604T2B0E",
+    "CodProducto": "3Y5L2HJF",
     "Vuelo": {
       "CodVuelo": "V-10",
-      "Origen": "Tokyo",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "Turkish Airlines",
+      "Origen": "HND",
+      "Destino": "EZE",
+      "Aerolinea": "TK",
       "FechaHoraSalida": "2023-06-01T07:00:00",
       "FechaHoraArribo": "2023-07-03T15:00:00",
       "TiempoDeVuelo": "08:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 280000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 240000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 210000.0
         },
@@ -501,7 +501,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 310000.0
         }
@@ -510,31 +510,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "X26BH0HE",
+    "CodProducto": "4OV9NTAR",
     "Vuelo": {
       "CodVuelo": "V-11",
-      "Origen": "Australia",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "Turkish Airlines",
+      "Origen": "SYD",
+      "Destino": "EZE",
+      "Aerolinea": "TK",
       "FechaHoraSalida": "2023-06-01T01:00:00",
       "FechaHoraArribo": "2023-07-04T06:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 260000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 230000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 200000.0
         },
@@ -552,7 +552,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 240000.0
         }
@@ -561,31 +561,31 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "6TZPUWBV",
+    "CodProducto": "20EGVG3D",
     "Vuelo": {
       "CodVuelo": "V-12",
-      "Origen": "Miami",
-      "Destino": "Buenos Aires",
-      "Aerolinea": "American Airlines",
+      "Origen": "MIA",
+      "Destino": "EZE",
+      "Aerolinea": "AA",
       "FechaHoraSalida": "2023-06-01T15:00:00",
       "FechaHoraArribo": "2023-07-05T20:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
         {
           "TipoPasajero": "Adulto",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 150000.0
         },
         {
           "TipoPasajero": "Menor",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 10,
           "Precio": 120000.0
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 90000.0
         },
@@ -603,7 +603,7 @@
         },
         {
           "TipoPasajero": "Infante",
-          "ClaseVuelo": "Económico",
+          "ClaseVuelo": "Economy",
           "DisponibilidadVuelo": 5,
           "Precio": 130000.0
         }
@@ -612,7 +612,7 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "Q6U1JQKM",
+    "CodProducto": "9VV4Q2WM",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-1",
@@ -725,7 +725,7 @@
     }
   },
   {
-    "CodProducto": "OQOXPRNO",
+    "CodProducto": "9K89RLDP",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-2",
@@ -863,7 +863,7 @@
     }
   },
   {
-    "CodProducto": "KACWU2E3",
+    "CodProducto": "168MVCOI",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-3",
@@ -951,7 +951,7 @@
     }
   },
   {
-    "CodProducto": "BMR6Z37W",
+    "CodProducto": "F4SQWRLR",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-4",

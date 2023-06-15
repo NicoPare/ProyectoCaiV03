@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoCaiV03.Entidades
 {
-    internal class Presupuesto
+    public class Presupuesto
     {
+        public string CodPresupuesto { get; set; }
+        public List<dynamic> AlojamientosSeleccionados { get; set; }
+        public List<dynamic> VuelosSeleccionados { get; set; }
     }
 }
