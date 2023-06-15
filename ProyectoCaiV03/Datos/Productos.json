@@ -1,12 +1,12 @@
 [
   {
-    "CodProducto": "XS6AH2TX",
+    "CodProducto": "4BZH2KQ6",
     "Vuelo": {
       "CodVuelo": "V-1",
       "Origen": "Buenos Aires",
       "Destino": "Londres",
       "Aerolinea": "Amerina Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-06-01T06:00:00",
       "TiempoDeVuelo": "01:00:00",
       "Tarifa": [
@@ -51,13 +51,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "4712QBG1",
+    "CodProducto": "7ZUOID2H",
     "Vuelo": {
       "CodVuelo": "V-2",
       "Origen": "Buenos Aires",
       "Destino": "Madrid",
       "Aerolinea": "Amerina Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T08:00:00",
       "FechaHoraArribo": "2023-06-01T11:00:00",
       "TiempoDeVuelo": "03:00:00",
       "Tarifa": [
@@ -102,13 +102,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "BUPOW9J6",
+    "CodProducto": "H2322WI2",
     "Vuelo": {
       "CodVuelo": "V-3",
       "Origen": "Buenos Aires",
       "Destino": "Barcelona",
       "Aerolinea": "Amerina Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-02T05:00:00",
       "FechaHoraArribo": "2023-06-02T06:00:00",
       "TiempoDeVuelo": "01:00:00",
       "Tarifa": [
@@ -153,13 +153,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "QIQ0RRK4",
+    "CodProducto": "SC3JMQJD",
     "Vuelo": {
       "CodVuelo": "V-4",
       "Origen": "Buenos Aires",
       "Destino": "Tokyo",
       "Aerolinea": "Turkish Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T14:00:00",
       "FechaHoraArribo": "2023-06-03T17:00:00",
       "TiempoDeVuelo": "03:00:00",
       "Tarifa": [
@@ -204,13 +204,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "KSNS7MAU",
+    "CodProducto": "Q833DNFS",
     "Vuelo": {
       "CodVuelo": "V-5",
       "Origen": "Buenos Aires",
       "Destino": "Australia",
       "Aerolinea": "Turkish Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T03:00:00",
       "FechaHoraArribo": "2023-06-04T08:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
@@ -255,13 +255,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "W1MXN46R",
+    "CodProducto": "F9OACR39",
     "Vuelo": {
       "CodVuelo": "V-6",
       "Origen": "Buenos Aires",
       "Destino": "Miami",
       "Aerolinea": "American Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-06-04T09:00:00",
       "TiempoDeVuelo": "04:00:00",
       "Tarifa": [
@@ -306,13 +306,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "K0NIZMCD",
+    "CodProducto": "YW07TKYC",
     "Vuelo": {
       "CodVuelo": "V-7",
       "Origen": "Londres",
       "Destino": "Buenos Aires",
       "Aerolinea": "American Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T03:00:00",
       "FechaHoraArribo": "2023-07-01T08:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
@@ -357,13 +357,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "WF6HW2YK",
+    "CodProducto": "8AYF0VA8",
     "Vuelo": {
       "CodVuelo": "V-8",
       "Origen": "Madrid",
       "Destino": "Buenos Aires",
       "Aerolinea": "American Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T10:00:00",
       "FechaHoraArribo": "2023-07-01T16:00:00",
       "TiempoDeVuelo": "06:00:00",
       "Tarifa": [
@@ -408,13 +408,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "TB7QM2EO",
+    "CodProducto": "W3908KIB",
     "Vuelo": {
       "CodVuelo": "V-9",
       "Origen": "Barcelona",
       "Destino": "Buenos Aires",
       "Aerolinea": "American Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T05:00:00",
       "FechaHoraArribo": "2023-07-02T10:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
@@ -459,13 +459,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "KFPFOHZA",
+    "CodProducto": "604T2B0E",
     "Vuelo": {
       "CodVuelo": "V-10",
       "Origen": "Tokyo",
       "Destino": "Buenos Aires",
       "Aerolinea": "Turkish Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T07:00:00",
       "FechaHoraArribo": "2023-07-03T15:00:00",
       "TiempoDeVuelo": "08:00:00",
       "Tarifa": [
@@ -510,13 +510,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "NU7QUWJ2",
+    "CodProducto": "X26BH0HE",
     "Vuelo": {
       "CodVuelo": "V-11",
       "Origen": "Australia",
       "Destino": "Buenos Aires",
       "Aerolinea": "Turkish Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T01:00:00",
       "FechaHoraArribo": "2023-07-04T06:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
@@ -561,13 +561,13 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "CPYW5T02",
+    "CodProducto": "6TZPUWBV",
     "Vuelo": {
       "CodVuelo": "V-12",
       "Origen": "Miami",
       "Destino": "Buenos Aires",
       "Aerolinea": "American Airlines",
-      "FechaHoraSalida": "0001-01-01T00:00:00",
+      "FechaHoraSalida": "2023-06-01T15:00:00",
       "FechaHoraArribo": "2023-07-05T20:00:00",
       "TiempoDeVuelo": "05:00:00",
       "Tarifa": [
@@ -612,7 +612,7 @@
     "Alojamiento": null
   },
   {
-    "CodProducto": "ZNY5X5PS",
+    "CodProducto": "Q6U1JQKM",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-1",
@@ -725,7 +725,7 @@
     }
   },
   {
-    "CodProducto": "DSNSKPW5",
+    "CodProducto": "OQOXPRNO",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-2",
@@ -863,7 +863,7 @@
     }
   },
   {
-    "CodProducto": "PVFKMW1L",
+    "CodProducto": "KACWU2E3",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-3",
@@ -951,7 +951,7 @@
     }
   },
   {
-    "CodProducto": "KYCFU6B6",
+    "CodProducto": "BMR6Z37W",
     "Vuelo": null,
     "Alojamiento": {
       "CodHotel": "H-4",

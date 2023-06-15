@@ -109,6 +109,200 @@ namespace ProyectoCaiV03.Modulos
             return new string(Enumerable.Repeat(chars, 8)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
+
+
+        // CONSULTAS DE DATOS
+
+        private List<Producto> productos;
+
+        public ModuloProductos()
+        {
+            productos = new List<Producto>();
+        }
+
+        // Consulta de vuelos
+        /*
+        public List<Vuelo> ConsultarVuelos(string origen, string destino, DateTime fechaIda, DateTime? fechaVuelta, int cantidadAdultos, int cantidadMenores, int cantidadInfantes)
+        {
+            List<Vuelo> vuelosDisponibles = new List<Vuelo>();
+
+            foreach (Producto producto in productos)
+            {
+                if (producto.Vuelo != null && producto.Vuelo.Origen == origen && producto.Vuelo.Destino == destino)
+                {
+                    DateTime fechaHoraSalida = producto.Vuelo.FechaHoraSalida;
+
+                    if (fechaIda.Date == fechaHoraSalida.Date)
+                    {
+                        if (fechaVuelta == null || fechaVuelta.Value.Date == fechaHoraSalida.Date)
+                        {
+                            Tarifa tarifaAdulto = producto.Vuelo.Tarifa.Find(t => t.TipoPasajero == "Adulto");
+                            Tarifa tarifaMenor = producto.Vuelo.Tarifa.Find(t => t.TipoPasajero == "Menor");
+                            Tarifa tarifaInfante = producto.Vuelo.Tarifa.Find(t => t.TipoPasajero == "Infante");
+
+                            if (tarifaAdulto != null && cantidadAdultos <= tarifaAdulto.DisponibilidadVuelo
+                                && tarifaMenor != null && cantidadMenores <= tarifaMenor.DisponibilidadVuelo
+                                && tarifaInfante != null && cantidadInfantes <= tarifaInfante.DisponibilidadVuelo)
+                            {
+                                vuelosDisponibles.Add(producto.Vuelo);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return vuelosDisponibles;
+        }*/
+        public List<dynamic> ConsultarVuelos(string origen, string destino, DateTime fechaIda, DateTime? fechaVuelta,
+        int cantidadAdultos, int cantidadMenores, int cantidadInfantes)
+        {
+            string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+
+            // Leer el contenido del archivo JSON
+            string jsonContent = File.ReadAllText(jsonFilePath);
+
+            // Deserializar el contenido JSON a una lista de objetos Producto
+            List<Producto> productos = JsonConvert.DeserializeObject<List<Producto>>(jsonContent);
+
+            List<dynamic> vuelosDisponibles = new List<dynamic>();
+
+            foreach (Producto producto in productos)
+            {
+                if (producto.Vuelo != null && producto.Vuelo.Origen == origen && producto.Vuelo.Destino == destino)
+                {
+                    DateTime fechaHoraSalida = producto.Vuelo.FechaHoraSalida;
+
+                    if (fechaIda.Date == fechaHoraSalida.Date &&
+                        (fechaVuelta == null || fechaVuelta.Value.Date == fechaHoraSalida.Date))
+                    {
+                        var vueloSimplificado = new
+                        {
+                            Origen = producto.Vuelo.Origen,
+                            Destino = producto.Vuelo.Destino,
+                            FechaHoraSalida = producto.Vuelo.FechaHoraSalida,
+                            FechaHoraArribo = producto.Vuelo.FechaHoraArribo,
+                            Aerolinea = producto.Vuelo.Aerolinea,
+                            Tarifas = producto.Vuelo.Tarifa.Select(t => new
+                            {
+                                Precio = t.Precio,
+                                ClaseVuelo = t.ClaseVuelo
+                            }).ToList()
+                        };
+
+                        vuelosDisponibles.Add(vueloSimplificado);
+                    }
+                }
+            }
+
+            return vuelosDisponibles;
+        }
+
+        // Consulta de Alojamientos
+        /*
+        public List<Alojamiento> ConsultarAlojamiento(string destino, DateTime fechaIngreso, DateTime fechaEgreso,
+        int cantidadAdultos, int cantidadMenores, int cantidadInfantes, int calificacion)
+        {
+            string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+
+            // Leer el contenido del archivo JSON
+            string jsonContent = File.ReadAllText(jsonFilePath);
+
+            // Deserializar el contenido JSON a una lista de objetos Alojamiento
+            List<Alojamiento> alojamientos = JsonConvert.DeserializeObject<List<Alojamiento>>(jsonContent);
+
+            // Filtrar los alojamientos que coinciden con el destino y la calificación
+            List<Alojamiento> alojamientosFiltrados = alojamientos.Where(a =>
+                a.CodCiudad == destino && a.Calificacion >= calificacion).ToList();
+
+            // Filtrar las habitaciones disponibles dentro del rango de fechas
+            List<Alojamiento> alojamientosDisponibles = new List<Alojamiento>();
+
+            foreach (var alojamiento in alojamientosFiltrados)
+            {
+                List<HabitacionAlojamiento> habitacionesDisponibles = new List<HabitacionAlojamiento>();
+
+                foreach (var habitacion in alojamiento.HabitacionAlojamiento)
+                {
+                    bool habitacionDisponible = habitacion.DisponibilidadHabitacion.Any(d =>
+                        d.Fecha >= fechaIngreso && d.Fecha <= fechaEgreso && d.CantidadDisponible > 0);
+
+                    if (habitacionDisponible && habitacion.CapacidadAdultos >= cantidadAdultos &&
+                        habitacion.CapacidadMenores >= cantidadMenores && habitacion.CapacidadInfantes >= cantidadInfantes)
+                    {
+                        habitacionesDisponibles.Add(habitacion);
+                    }
+                }
+
+                if (habitacionesDisponibles.Count > 0)
+                {
+                    Alojamiento alojamientoDisponible = new Alojamiento
+                    {
+                        CodHotel = alojamiento.CodHotel,
+                        NombreAlojamiento = alojamiento.NombreAlojamiento,
+                        CodCiudad = alojamiento.CodCiudad,
+                        Direccion = alojamiento.Direccion,
+                        Calificacion = alojamiento.Calificacion,
+                        HabitacionAlojamiento = habitacionesDisponibles
+                    };
+
+                    alojamientosDisponibles.Add(alojamientoDisponible);
+                }
+            }
+
+            return alojamientosDisponibles;
+        }
+        */
+
+        public List<dynamic> ConsultarAlojamiento(string destino, DateTime fechaIngreso, DateTime fechaEgreso,
+        int cantidadAdultos, int cantidadMenores, int cantidadInfantes, int calificacion)
+        {
+            string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+
+            // Leer el contenido del archivo JSON
+            string jsonContent = File.ReadAllText(jsonFilePath);
+
+            // Deserializar el contenido JSON a una lista de objetos Producto
+            List<Producto> productos = JsonConvert.DeserializeObject<List<Producto>>(jsonContent);
+
+            // Filtrar los productos que coinciden con el destino y la calificación
+            List<Producto> productosFiltrados = productos.Where(p =>
+                p.Alojamiento != null && p.Alojamiento.CodCiudad == destino && p.Alojamiento.Calificacion >= calificacion).ToList();
+
+            // Filtrar las habitaciones disponibles dentro del rango de fechas
+            List<dynamic> alojamientosDisponibles = new List<dynamic>();
+
+            foreach (var producto in productosFiltrados)
+            {
+                foreach (var habitacion in producto.Alojamiento.HabitacionAlojamiento)
+                {
+                    bool habitacionDisponible = habitacion.DisponibilidadHabitacion.Any(d =>
+                        d.Fecha >= fechaIngreso && d.Fecha <= fechaEgreso && d.CantidadDisponible > 0);
+
+                    if (habitacionDisponible && habitacion.CapacidadAdultos >= cantidadAdultos &&
+                        habitacion.CapacidadMenores >= cantidadMenores && habitacion.CapacidadInfantes >= cantidadInfantes)
+                    {
+                        var alojamientoSimplificado = new
+                        {
+                            CodCiudad = producto.Alojamiento.CodCiudad,
+                            FechaIngreso = fechaIngreso,
+                            FechaSalida = fechaEgreso,
+                            NombreAlojamiento = producto.Alojamiento.NombreAlojamiento,
+                            Tarifa = habitacion.Tarifa,
+                            NombreHabitacion = habitacion.NombreHabitacion,
+                            Calificacion = producto.Alojamiento.Calificacion
+                        };
+
+                        alojamientosDisponibles.Add(alojamientoSimplificado);
+                    }
+                }
+            }
+
+            return alojamientosDisponibles;
+        }
+
+
     }
+
+    
 
 }

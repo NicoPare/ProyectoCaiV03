@@ -14,7 +14,7 @@ namespace ProyectoCaiV03.Entidades
         public string Destino { get; set; }
         public string Aerolinea { get; set; }
         public DateTime FechaHoraSalida { get; set; }
-        public DateTime FechaHoraArribo { get; set; }
+        public DateTime FechaHoraArribo { get; set; }        
         public string TiempoDeVuelo { get; set; }
         public List<Tarifa> Tarifa { get; set; }
     }
