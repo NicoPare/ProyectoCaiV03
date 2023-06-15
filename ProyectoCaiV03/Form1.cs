@@ -19,15 +19,21 @@ namespace ProyectoCaiV03
 
         private void botonConsultarVuelos_Click(object sender, EventArgs e)
         {
-            // Ocultar el formulario actual (Form1)
+            // Ocultar la ventana actual (Form1)
             this.Hide();
 
-            // Mostrar el formulario ConsultaVuelos
+            // Crear una instancia del formulario ConsultaVuelosForm
             ConsultaVuelos consultaVuelosForm = new ConsultaVuelos();
-            consultaVuelosForm.ShowDialog();
 
-            // Volver a mostrar el formulario actual (Form1) después de cerrar ConsultaVuelos
-            this.Show();
+            // Mostrar el formulario ConsultaVuelosForm como diálogo
+            DialogResult result = consultaVuelosForm.ShowDialog();
+
+            // Verificar el resultado del diálogo
+            if (result == DialogResult.OK)
+            {
+                // Mostrar la ventana actual (Form1)
+                this.Show();
+            }
         }
 
         private void botonConsultarAlojamientos_Click(object sender, EventArgs e)

@@ -156,7 +156,8 @@ namespace ProyectoCaiV03.Modulos
         public List<dynamic> ConsultarVuelos(string origen, string destino, DateTime fechaIda, DateTime? fechaVuelta,
         int cantidadAdultos, int cantidadMenores, int cantidadInfantes)
         {
-            string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+            //string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+            string jsonFilePath = "C:\\Users\\npare\\source\\repos\\ProyectoCaiV03\\ProyectoCaiV03\\Datos\\Productos.json";
 
             // Leer el contenido del archivo JSON
             string jsonContent = File.ReadAllText(jsonFilePath);
@@ -170,10 +171,10 @@ namespace ProyectoCaiV03.Modulos
             {
                 if (producto.Vuelo != null && producto.Vuelo.Origen == origen && producto.Vuelo.Destino == destino)
                 {
-                    DateTime fechaHoraSalida = producto.Vuelo.FechaHoraSalida;
+                    DateTime fechaHoraSalida = producto.Vuelo.FechaHoraSalida.Date;
 
-                    if (fechaIda.Date == fechaHoraSalida.Date &&
-                        (fechaVuelta == null || fechaVuelta.Value.Date == fechaHoraSalida.Date))
+                    if (fechaIda.Date == fechaHoraSalida.Date)/* &&
+                        (fechaVuelta == null || fechaVuelta.Value.Date == fechaHoraSalida.Date))*/
                     {
                         var vueloSimplificado = new
                         {
@@ -256,7 +257,8 @@ namespace ProyectoCaiV03.Modulos
         public List<dynamic> ConsultarAlojamiento(string destino, DateTime fechaIngreso, DateTime fechaEgreso,
         int cantidadAdultos, int cantidadMenores, int cantidadInfantes, int calificacion)
         {
-            string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+            //string jsonFilePath = "Productos.json"; // Ruta del archivo JSON
+            string jsonFilePath = "C:\\Users\\npare\\source\\repos\\ProyectoCaiV03\\ProyectoCaiV03\\Datos\\Productos.json";
 
             // Leer el contenido del archivo JSON
             string jsonContent = File.ReadAllText(jsonFilePath);
